@@ -14,7 +14,7 @@ RUN             apk --no-cache add --virtual .build-deps \
                     git && \
                 npm install \
                     hubot@$VERSION \
-                    hubot-diagnostics \
+                    # hubot-diagnostics \
                     hubot-help \
                     hubot-redis-brain && \
                 apk del .build-deps
