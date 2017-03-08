@@ -1,4 +1,4 @@
-FROM            allanlei/node:6.3.1
+FROM            node:7.7.1-alpine
 
 ENV             VERSION=2.19.0
 
